@@ -11,12 +11,16 @@
     "url": "git+https://github.com/comp426-2022-fall/a03-oliviaw7.git"
   },
   "author": "Olivia Wen",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-oliviaw7/issues"
   },
   "bin": {
     "roll-dice": "./bin/cli.js"
   },
+  "dependencies": {
+    "minimist": "^1.2.7"
+  },
+  "type": "module",
   "homepage": "https://github.com/comp426-2022-fall/a03-oliviaw7#readme"
 }
