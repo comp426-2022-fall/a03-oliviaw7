@@ -17,4 +17,4 @@ if (!("rolls in args")) {
     args.rolls = 1
 }
 
-console.log(roll(args.sides, args.dice, args.rolls))
+console.log(JSON.stringify(roll(args.sides, args.dice, args.rolls)))
